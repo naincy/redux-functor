@@ -27,7 +27,7 @@ Redux : https://redux.js.org/
 ### Step 2
 
 <code>
-    webpack-dev-server
+    npx webpack-dev-server
 </code>
 
 ### Step 3
