@@ -4,4 +4,4 @@ const reducer = require('../reducer');
 
 let store = createStore(reducer);
 
-module.exports = store
+module.exports = store;

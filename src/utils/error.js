@@ -1,10 +1,10 @@
-module.exports = function error(Message){
+module.exports = function error (Message){
 
-    let ErrorElement = document.getElementById("errortext");
-        ErrorElement.innerHTML = Message;
-        ErrorElement.classList.remove("hide");
+  let ErrorElement = document.getElementById('errortext');
+  ErrorElement.innerHTML = Message;
+  ErrorElement.classList.remove('hide');
         
-        setTimeout(() =>{
-            ErrorElement.classList.add("hide")
-        },4000);
-}
+  setTimeout(() =>{
+    ErrorElement.classList.add('hide');
+  }, 4000);
+};

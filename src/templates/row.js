@@ -1,5 +1,5 @@
-module.exports = function rowHTML(html) {
-    return `
+module.exports = function rowHTML (html) {
+  return `
       <div class="row">${html}</div>
     `;
-  };
+};

@@ -10,6 +10,6 @@ module.exports = (state = 0, action) => {
     return Object.assign({}, state, { detaildata: action.payload });
     
   default:
-    return state
+    return state;
   }
-}
+};
